@@ -1,0 +1,4108 @@
+<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
+<DatabaseData>
+    <MappingMeta>
+        <ID>-1</ID>
+        <File>PH_WODOUpdate_Outbound.map</File>
+        <Name>PH_WODOUpdate_Outbound</Name>
+        <Namespace>Test</Namespace>
+        <Version>1.0.0</Version>
+        <Description>A new mapping</Description>
+        <Layout>(Layout, 20, 60, 20)</Layout>
+        <ChangeDate>1687172111000</ChangeDate>
+        <SchemaIn>
+            <ID>-1</ID>
+            <File>EventhubInitiator_2ec62c2f.xsd</File>
+            <Name>EventhubInitiator</Name>
+            <Namespace></Namespace>
+            <Category>Other</Category>
+            <Version>1.0</Version>
+        </SchemaIn>
+    </MappingMeta>
+    <Format>2.7</Format>
+    <SequenceList>
+        <Sequence>
+            <Number>1</Number>
+            <ID_S IDREF="FID1"/>
+            <Type>F</Type>
+        </Sequence>
+        <Sequence>
+            <Number>2</Number>
+            <ID_S IDREF="FID2"/>
+            <Type>F</Type>
+        </Sequence>
+        <Sequence>
+            <Number>3</Number>
+            <ID_S IDREF="LID1"/>
+            <Type>LB</Type>
+        </Sequence>
+        <Sequence>
+            <Number>4</Number>
+            <ID_S IDREF="FID3"/>
+            <Type>F</Type>
+        </Sequence>
+        <Sequence>
+            <Number>5</Number>
+            <ID_S IDREF="LID1"/>
+            <Type>LE</Type>
+        </Sequence>
+        <Sequence>
+            <Number>6</Number>
+            <ID_S IDREF="FID4"/>
+            <Type>F</Type>
+        </Sequence>
+        <Sequence>
+            <Number>7</Number>
+            <ID_S IDREF="FID5"/>
+            <Type>F</Type>
+        </Sequence>
+        <Sequence>
+            <Number>8</Number>
+            <ID_S IDREF="LID2"/>
+            <Type>LB</Type>
+        </Sequence>
+        <Sequence>
+            <Number>9</Number>
+            <ID_S IDREF="FID6"/>
+            <Type>F</Type>
+        </Sequence>
+        <Sequence>
+            <Number>10</Number>
+            <ID_S IDREF="FID7"/>
+            <Type>F</Type>
+        </Sequence>
+        <Sequence>
+            <Number>11</Number>
+            <ID_S IDREF="LID3"/>
+            <Type>LB</Type>
+        </Sequence>
+        <Sequence>
+            <Number>12</Number>
+            <ID_S IDREF="FID8"/>
+            <Type>F</Type>
+        </Sequence>
+        <Sequence>
+            <Number>13</Number>
+            <ID_S IDREF="FID9"/>
+            <Type>F</Type>
+        </Sequence>
+        <Sequence>
+            <Number>14</Number>
+            <ID_S IDREF="FID10"/>
+            <Type>F</Type>
+        </Sequence>
+        <Sequence>
+            <Number>15</Number>
+            <ID_S IDREF="LID3"/>
+            <Type>LE</Type>
+        </Sequence>
+        <Sequence>
+            <Number>16</Number>
+            <ID_S IDREF="FID11"/>
+            <Type>F</Type>
+        </Sequence>
+        <Sequence>
+            <Number>17</Number>
+            <ID_S IDREF="FID12"/>
+            <Type>F</Type>
+        </Sequence>
+        <Sequence>
+            <Number>18</Number>
+            <ID_S IDREF="LID4"/>
+            <Type>LB</Type>
+        </Sequence>
+        <Sequence>
+            <Number>19</Number>
+            <ID_S IDREF="FID13"/>
+            <Type>F</Type>
+        </Sequence>
+        <Sequence>
+            <Number>20</Number>
+            <ID_S IDREF="FID14"/>
+            <Type>F</Type>
+        </Sequence>
+        <Sequence>
+            <Number>21</Number>
+            <ID_S IDREF="LID5"/>
+            <Type>LB</Type>
+        </Sequence>
+        <Sequence>
+            <Number>22</Number>
+            <ID_S IDREF="FID15"/>
+            <Type>F</Type>
+        </Sequence>
+        <Sequence>
+            <Number>23</Number>
+            <ID_S IDREF="FID16"/>
+            <Type>F</Type>
+        </Sequence>
+        <Sequence>
+            <Number>24</Number>
+            <ID_S IDREF="FID17"/>
+            <Type>F</Type>
+        </Sequence>
+        <Sequence>
+            <Number>25</Number>
+            <ID_S IDREF="LID5"/>
+            <Type>LE</Type>
+        </Sequence>
+        <Sequence>
+            <Number>26</Number>
+            <ID_S IDREF="LID4"/>
+            <Type>LE</Type>
+        </Sequence>
+        <Sequence>
+            <Number>27</Number>
+            <ID_S IDREF="FID18"/>
+            <Type>F</Type>
+        </Sequence>
+        <Sequence>
+            <Number>28</Number>
+            <ID_S IDREF="LID2"/>
+            <Type>LE</Type>
+        </Sequence>
+        <Sequence>
+            <Number>29</Number>
+            <ID_S IDREF="FID19"/>
+            <Type>F</Type>
+        </Sequence>
+    </SequenceList>
+    <Loops>
+        <Loop>
+            <Name>initInput</Name>
+            <Condition>WT</Condition>
+            <Description>Please describe me</Description>
+            <ID_L ID="LID1"/>
+        </Loop>
+        <Loop>
+            <Name>MGLINEBOLoop</Name>
+            <Condition>IT</Condition>
+            <Description>Please describe me</Description>
+            <ID_L ID="LID2"/>
+        </Loop>
+        <Loop>
+            <Name>WaitLoop</Name>
+            <Condition>WT</Condition>
+            <Description>Please describe me</Description>
+            <ID_L ID="LID3"/>
+        </Loop>
+        <Loop>
+            <Name>UpdateBOLoop</Name>
+            <Condition>IT</Condition>
+            <Description>Please describe me</Description>
+            <ID_L ID="LID4"/>
+        </Loop>
+        <Loop>
+            <Name>If</Name>
+            <Condition>IT</Condition>
+            <Description>Please describe me</Description>
+            <ID_L ID="LID5"/>
+        </Loop>
+    </Loops>
+    <Functions>
+        <Function>
+            <IsResuable>false</IsResuable>
+            <PATH>/implementations</PATH>
+            <Name>VersionLog</Name>
+            <Type>UV</Type>
+            <Description>Please describe me</Description>
+            <ID_F ID="FID1"/>
+        </Function>
+        <Function>
+            <IsResuable>false</IsResuable>
+            <PATH>/implementations</PATH>
+            <Name>GetOperation</Name>
+            <Type>UV</Type>
+            <Description>Please describe me</Description>
+            <ID_F ID="FID2"/>
+        </Function>
+        <Function>
+            <IsResuable>false</IsResuable>
+            <PATH>/implementations</PATH>
+            <Name>getInput</Name>
+            <Type>UV</Type>
+            <Description>Please describe me</Description>
+            <ID_F ID="FID3"/>
+        </Function>
+        <Function>
+            <IsResuable>false</IsResuable>
+            <PATH>/OIS100MI/GetHead</PATH>
+            <Name>GetHead</Name>
+            <Type>AVM</Type>
+            <Description></Description>
+            <ID_F ID="FID4"/>
+        </Function>
+        <Function>
+            <IsResuable>false</IsResuable>
+            <PATH>/implementations</PATH>
+            <Name>initVars</Name>
+            <Type>UV</Type>
+            <Description>Please describe me</Description>
+            <ID_F ID="FID5"/>
+        </Function>
+        <Function>
+            <IsResuable>false</IsResuable>
+            <PATH>/implementations</PATH>
+            <Name>isMGLINEUpd</Name>
+            <Type>UB</Type>
+            <Description>Please describe me</Description>
+            <ID_F ID="FID6"/>
+        </Function>
+        <Function>
+            <IsResuable>false</IsResuable>
+            <PATH>/implementations</PATH>
+            <Name>prepareLine_BO</Name>
+            <Type>UV</Type>
+            <Description>Please describe me</Description>
+            <ID_F ID="FID7"/>
+        </Function>
+        <Function>
+            <IsResuable>false</IsResuable>
+            <PATH>/implementations</PATH>
+            <Name>isUpdate</Name>
+            <Type>UB</Type>
+            <Description>Please describe me</Description>
+            <ID_F ID="FID8"/>
+        </Function>
+        <Function>
+            <IsResuable>false</IsResuable>
+            <PATH>/EUS001MI/Add</PATH>
+            <Name>Add</Name>
+            <Type>AVI</Type>
+            <Description></Description>
+            <ID_F ID="FID9"/>
+        </Function>
+        <Function>
+            <IsResuable>false</IsResuable>
+            <PATH>/implementations</PATH>
+            <Name>isRecordAdded</Name>
+            <Type>UV</Type>
+            <Description>Please describe me</Description>
+            <ID_F ID="FID10"/>
+        </Function>
+        <Function>
+            <IsResuable>false</IsResuable>
+            <PATH>/MDBREADMI/GetMGLINE00</PATH>
+            <Name>GetMGLINE00</Name>
+            <Type>AVI</Type>
+            <Description></Description>
+            <ID_F ID="FID11"/>
+        </Function>
+        <Function>
+            <IsResuable>false</IsResuable>
+            <PATH>/implementations</PATH>
+            <Name>ComputeAllocated</Name>
+            <Type>UV</Type>
+            <Description>Please describe me</Description>
+            <ID_F ID="FID12"/>
+        </Function>
+        <Function>
+            <IsResuable>false</IsResuable>
+            <PATH>/implementations</PATH>
+            <Name>isUpdateBOLoop</Name>
+            <Type>UB</Type>
+            <Description>Please describe me</Description>
+            <ID_F ID="FID13"/>
+        </Function>
+        <Function>
+            <IsResuable>false</IsResuable>
+            <PATH>/EXT100MI/GetSalesOrdLine</PATH>
+            <Name>GetSalesOrdLine</Name>
+            <Type>AVI</Type>
+            <Description></Description>
+            <ID_F ID="FID14"/>
+        </Function>
+        <Function>
+            <IsResuable>false</IsResuable>
+            <PATH>/implementations</PATH>
+            <Name>checkIfUpdateNeeded</Name>
+            <Type>UB</Type>
+            <Description>Please describe me</Description>
+            <ID_F ID="FID15"/>
+        </Function>
+        <Function>
+            <IsResuable>false</IsResuable>
+            <PATH>/EXT100MI/UpdSalesOrdLine</PATH>
+            <Name>UpdSalesOrdLine</Name>
+            <Type>AVI</Type>
+            <Description></Description>
+            <ID_F ID="FID16"/>
+        </Function>
+        <Function>
+            <IsResuable>false</IsResuable>
+            <PATH>/EXT100MI/UpdSalesOrdHead</PATH>
+            <Name>UpdSalesOrdHead</Name>
+            <Type>AVI</Type>
+            <Description></Description>
+            <ID_F ID="FID17"/>
+        </Function>
+        <Function>
+            <IsResuable>false</IsResuable>
+            <PATH>/EUS001MI/Del</PATH>
+            <Name>Del</Name>
+            <Type>AVI</Type>
+            <Description></Description>
+            <ID_F ID="FID18"/>
+        </Function>
+        <Function>
+            <IsResuable>false</IsResuable>
+            <PATH>/implementations</PATH>
+            <Name>setManifest</Name>
+            <Type>UV</Type>
+            <Description>Please describe me</Description>
+            <ID_F ID="FID19"/>
+        </Function>
+    </Functions>
+    <Parameters>
+        <Parameter>
+            <Position>0</Position>
+            <Name>iDocumentName</Name>
+            <Type>I</Type>
+            <Description>Please describe me</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID2"/>
+            <ID_P ID="IID1"/>
+        </Parameter>
+        <Parameter>
+            <Position>1</Position>
+            <Name>iOperation</Name>
+            <Type>I</Type>
+            <Description>Please describe me</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID2"/>
+            <ID_P ID="IID2"/>
+        </Parameter>
+        <Parameter>
+            <Position>0</Position>
+            <Name>oOperation</Name>
+            <Type>O</Type>
+            <Description>Please describe me</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID2"/>
+            <ID_P ID="OID1"/>
+        </Parameter>
+        <Parameter>
+            <Position>0</Position>
+            <Name>iName</Name>
+            <Type>I</Type>
+            <Description>Please describe me</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID3"/>
+            <ID_P ID="IID3"/>
+        </Parameter>
+        <Parameter>
+            <Position>1</Position>
+            <Name>iValue</Name>
+            <Type>I</Type>
+            <Description>Please describe me</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID3"/>
+            <ID_P ID="IID4"/>
+        </Parameter>
+        <Parameter>
+            <Position>2</Position>
+            <Name>oldValue</Name>
+            <Type>I</Type>
+            <Description>Please describe me</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID3"/>
+            <ID_P ID="IID5"/>
+        </Parameter>
+        <Parameter>
+            <Position>0</Position>
+            <Name>CONO</Name>
+            <Type>I</Type>
+            <Description>Company, size is 3, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="IID6"/>
+        </Parameter>
+        <Parameter>
+            <Position>1</Position>
+            <Name>ORNO</Name>
+            <Type>I</Type>
+            <Description>Order number, size is 10, type is Alpha(mandatory)</Description>
+            <DataType>String</DataType>
+            <Mandatory>true</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="IID7"/>
+        </Parameter>
+        <Parameter>
+            <Position>0</Position>
+            <Name>ORNO</Name>
+            <Type>O</Type>
+            <Description>Order number, size is 10, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID2"/>
+        </Parameter>
+        <Parameter>
+            <Position>1</Position>
+            <Name>ORTP</Name>
+            <Type>O</Type>
+            <Description>Order type, size is 3, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID3"/>
+        </Parameter>
+        <Parameter>
+            <Position>2</Position>
+            <Name>ORDT</Name>
+            <Type>O</Type>
+            <Description>Order date, size is 10, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID4"/>
+        </Parameter>
+        <Parameter>
+            <Position>3</Position>
+            <Name>STAT</Name>
+            <Type>O</Type>
+            <Description>Order status, size is 2, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID5"/>
+        </Parameter>
+        <Parameter>
+            <Position>4</Position>
+            <Name>FACI</Name>
+            <Type>O</Type>
+            <Description>Facility, size is 3, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID6"/>
+        </Parameter>
+        <Parameter>
+            <Position>5</Position>
+            <Name>CUOR</Name>
+            <Type>O</Type>
+            <Description>Customer order number, size is 20, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID7"/>
+        </Parameter>
+        <Parameter>
+            <Position>6</Position>
+            <Name>AGNT</Name>
+            <Type>O</Type>
+            <Description>Agent, size is 10, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID8"/>
+        </Parameter>
+        <Parameter>
+            <Position>7</Position>
+            <Name>SMCD</Name>
+            <Type>O</Type>
+            <Description>Salesman, size is 4, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID9"/>
+        </Parameter>
+        <Parameter>
+            <Position>8</Position>
+            <Name>MODL</Name>
+            <Type>O</Type>
+            <Description>Method of delivery, size is 3, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID10"/>
+        </Parameter>
+        <Parameter>
+            <Position>9</Position>
+            <Name>MOD1</Name>
+            <Type>O</Type>
+            <Description>Delivery method text, size is 36, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID11"/>
+        </Parameter>
+        <Parameter>
+            <Position>10</Position>
+            <Name>TEDL</Name>
+            <Type>O</Type>
+            <Description>Term of delivery, size is 3, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID12"/>
+        </Parameter>
+        <Parameter>
+            <Position>11</Position>
+            <Name>TEL1</Name>
+            <Type>O</Type>
+            <Description>Terms text, size is 36, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID13"/>
+        </Parameter>
+        <Parameter>
+            <Position>12</Position>
+            <Name>YREF</Name>
+            <Type>O</Type>
+            <Description>Reference at customer, size is 30, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID14"/>
+        </Parameter>
+        <Parameter>
+            <Position>13</Position>
+            <Name>PROJ</Name>
+            <Type>O</Type>
+            <Description>Project, size is 7, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID15"/>
+        </Parameter>
+        <Parameter>
+            <Position>14</Position>
+            <Name>OTBA</Name>
+            <Type>O</Type>
+            <Description>Order discount amount, size is 16, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID16"/>
+        </Parameter>
+        <Parameter>
+            <Position>15</Position>
+            <Name>TEPY</Name>
+            <Type>O</Type>
+            <Description>Terms of payment, size is 3, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID17"/>
+        </Parameter>
+        <Parameter>
+            <Position>16</Position>
+            <Name>TXPY</Name>
+            <Type>O</Type>
+            <Description>Terms of payment, text, size is 36, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID18"/>
+        </Parameter>
+        <Parameter>
+            <Position>17</Position>
+            <Name>PYNO</Name>
+            <Type>O</Type>
+            <Description>Payer, size is 10, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID19"/>
+        </Parameter>
+        <Parameter>
+            <Position>18</Position>
+            <Name>ADID</Name>
+            <Type>O</Type>
+            <Description>Delivery address id, size is 6, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID20"/>
+        </Parameter>
+        <Parameter>
+            <Position>19</Position>
+            <Name>CUCD</Name>
+            <Type>O</Type>
+            <Description>Currency code, size is 3, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID21"/>
+        </Parameter>
+        <Parameter>
+            <Position>20</Position>
+            <Name>OREF</Name>
+            <Type>O</Type>
+            <Description>Our referens, size is 30, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID22"/>
+        </Parameter>
+        <Parameter>
+            <Position>21</Position>
+            <Name>NTAM</Name>
+            <Type>O</Type>
+            <Description>Net order amount, size is 15, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID23"/>
+        </Parameter>
+        <Parameter>
+            <Position>22</Position>
+            <Name>VTCD</Name>
+            <Type>O</Type>
+            <Description>VAT code, size is 2, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID24"/>
+        </Parameter>
+        <Parameter>
+            <Position>23</Position>
+            <Name>ORSL</Name>
+            <Type>O</Type>
+            <Description>Lowest status - Customer, size is 2, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID25"/>
+        </Parameter>
+        <Parameter>
+            <Position>24</Position>
+            <Name>ORST</Name>
+            <Type>O</Type>
+            <Description>Highest status - Customer, size is 2, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID26"/>
+        </Parameter>
+        <Parameter>
+            <Position>25</Position>
+            <Name>ODAM</Name>
+            <Type>O</Type>
+            <Description>Order discount, size is 16, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID27"/>
+        </Parameter>
+        <Parameter>
+            <Position>26</Position>
+            <Name>OTDP</Name>
+            <Type>O</Type>
+            <Description>Discount percent, size is 16, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID28"/>
+        </Parameter>
+        <Parameter>
+            <Position>27</Position>
+            <Name>ONET</Name>
+            <Type>O</Type>
+            <Description>Order net, size is 16, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID29"/>
+        </Parameter>
+        <Parameter>
+            <Position>28</Position>
+            <Name>EXAM</Name>
+            <Type>O</Type>
+            <Description>Charge, size is 16, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID30"/>
+        </Parameter>
+        <Parameter>
+            <Position>29</Position>
+            <Name>EXTX</Name>
+            <Type>O</Type>
+            <Description>Description charge, size is 30, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID31"/>
+        </Parameter>
+        <Parameter>
+            <Position>30</Position>
+            <Name>EFAM</Name>
+            <Type>O</Type>
+            <Description>External charge, size is 16, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID32"/>
+        </Parameter>
+        <Parameter>
+            <Position>31</Position>
+            <Name>ORVA</Name>
+            <Type>O</Type>
+            <Description>Subtotal before tax, size is 16, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID33"/>
+        </Parameter>
+        <Parameter>
+            <Position>32</Position>
+            <Name>VTAM</Name>
+            <Type>O</Type>
+            <Description>VAT amount, size is 16, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID34"/>
+        </Parameter>
+        <Parameter>
+            <Position>33</Position>
+            <Name>TOAM</Name>
+            <Type>O</Type>
+            <Description>Subtotal after tax, size is 16, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID35"/>
+        </Parameter>
+        <Parameter>
+            <Position>34</Position>
+            <Name>ROAM</Name>
+            <Type>O</Type>
+            <Description>Rounding off, size is 16, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID36"/>
+        </Parameter>
+        <Parameter>
+            <Position>35</Position>
+            <Name>TOPY</Name>
+            <Type>O</Type>
+            <Description>Total, size is 16, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID37"/>
+        </Parameter>
+        <Parameter>
+            <Position>36</Position>
+            <Name>DLIX</Name>
+            <Type>O</Type>
+            <Description>Delivery index, size is 3, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID38"/>
+        </Parameter>
+        <Parameter>
+            <Position>37</Position>
+            <Name>CUNO</Name>
+            <Type>O</Type>
+            <Description>Customer number, size is 10, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID39"/>
+        </Parameter>
+        <Parameter>
+            <Position>38</Position>
+            <Name>BRAM</Name>
+            <Type>O</Type>
+            <Description>Order value gross, size is 17, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID40"/>
+        </Parameter>
+        <Parameter>
+            <Position>39</Position>
+            <Name>CUDT</Name>
+            <Type>O</Type>
+            <Description>Customers purchase order date, size is 10, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID41"/>
+        </Parameter>
+        <Parameter>
+            <Position>40</Position>
+            <Name>INRC</Name>
+            <Type>O</Type>
+            <Description>Invoice recipient, size is 10, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID42"/>
+        </Parameter>
+        <Parameter>
+            <Position>41</Position>
+            <Name>WHLO</Name>
+            <Type>O</Type>
+            <Description>Warehouse, size is 3, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID43"/>
+        </Parameter>
+        <Parameter>
+            <Position>42</Position>
+            <Name>DIVI</Name>
+            <Type>O</Type>
+            <Description>Division, size is 3, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID44"/>
+        </Parameter>
+        <Parameter>
+            <Position>43</Position>
+            <Name>POTX</Name>
+            <Type>O</Type>
+            <Description>Text indicator, posttext, size is 13, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID45"/>
+        </Parameter>
+        <Parameter>
+            <Position>44</Position>
+            <Name>PRT2</Name>
+            <Type>O</Type>
+            <Description>Text indicator, pretext, size is 13, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID46"/>
+        </Parameter>
+        <Parameter>
+            <Position>45</Position>
+            <Name>RLDT</Name>
+            <Type>O</Type>
+            <Description>Requested delivery date, size is 10, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID47"/>
+        </Parameter>
+        <Parameter>
+            <Position>46</Position>
+            <Name>RLHM</Name>
+            <Type>O</Type>
+            <Description>Requested delivery time, size is 4, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID48"/>
+        </Parameter>
+        <Parameter>
+            <Position>47</Position>
+            <Name>FDDT</Name>
+            <Type>O</Type>
+            <Description>Earliest delivery date, size is 10, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID49"/>
+        </Parameter>
+        <Parameter>
+            <Position>48</Position>
+            <Name>AGNO</Name>
+            <Type>O</Type>
+            <Description>Blanket agreement number, size is 7, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID50"/>
+        </Parameter>
+        <Parameter>
+            <Position>49</Position>
+            <Name>BAGD</Name>
+            <Type>O</Type>
+            <Description>Start date - blanket agreement, size is 10, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID51"/>
+        </Parameter>
+        <Parameter>
+            <Position>50</Position>
+            <Name>TECD</Name>
+            <Type>O</Type>
+            <Description>Cash discount term, size is 3, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID52"/>
+        </Parameter>
+        <Parameter>
+            <Position>51</Position>
+            <Name>TECX</Name>
+            <Type>O</Type>
+            <Description>Cash discount term, text, size is 36, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID53"/>
+        </Parameter>
+        <Parameter>
+            <Position>52</Position>
+            <Name>TEPA</Name>
+            <Type>O</Type>
+            <Description>Packaging terms, size is 3, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID54"/>
+        </Parameter>
+        <Parameter>
+            <Position>53</Position>
+            <Name>TEPX</Name>
+            <Type>O</Type>
+            <Description>Packaging terms, text, size is 36, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID55"/>
+        </Parameter>
+        <Parameter>
+            <Position>54</Position>
+            <Name>DICD</Name>
+            <Type>O</Type>
+            <Description>Discount origin, size is 1, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID56"/>
+        </Parameter>
+        <Parameter>
+            <Position>55</Position>
+            <Name>DISY</Name>
+            <Type>O</Type>
+            <Description>Discount model, size is 10, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID57"/>
+        </Parameter>
+        <Parameter>
+            <Position>56</Position>
+            <Name>LNCD</Name>
+            <Type>O</Type>
+            <Description>Language, size is 2, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID58"/>
+        </Parameter>
+        <Parameter>
+            <Position>57</Position>
+            <Name>RLDZ</Name>
+            <Type>O</Type>
+            <Description>Requested delivery date, size is 10, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID59"/>
+        </Parameter>
+        <Parameter>
+            <Position>58</Position>
+            <Name>RLHZ</Name>
+            <Type>O</Type>
+            <Description>Requested delivery time, size is 4, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID60"/>
+        </Parameter>
+        <Parameter>
+            <Position>59</Position>
+            <Name>TIZO</Name>
+            <Type>O</Type>
+            <Description>Time zone, size is 5, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID61"/>
+        </Parameter>
+        <Parameter>
+            <Position>60</Position>
+            <Name>TEL2</Name>
+            <Type>O</Type>
+            <Description>Terms text, size is 36, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID62"/>
+        </Parameter>
+        <Parameter>
+            <Position>61</Position>
+            <Name>DLSP</Name>
+            <Type>O</Type>
+            <Description>Delivery specification, size is 12, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID63"/>
+        </Parameter>
+        <Parameter>
+            <Position>62</Position>
+            <Name>DSTX</Name>
+            <Type>O</Type>
+            <Description>Description, delivery specification, size is 36, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID64"/>
+        </Parameter>
+        <Parameter>
+            <Position>63</Position>
+            <Name>OFNO</Name>
+            <Type>O</Type>
+            <Description>Quotation number, size is 10, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID65"/>
+        </Parameter>
+        <Parameter>
+            <Position>64</Position>
+            <Name>PLTB</Name>
+            <Type>O</Type>
+            <Description>Price list table, size is 10, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID66"/>
+        </Parameter>
+        <Parameter>
+            <Position>65</Position>
+            <Name>WCON</Name>
+            <Type>O</Type>
+            <Description>Contact method, size is 3, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID67"/>
+        </Parameter>
+        <Parameter>
+            <Position>66</Position>
+            <Name>ELNO</Name>
+            <Type>O</Type>
+            <Description>Project element, size is 8, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID68"/>
+        </Parameter>
+        <Parameter>
+            <Position>67</Position>
+            <Name>PRO2</Name>
+            <Type>O</Type>
+            <Description>Project number, size is 7, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID69"/>
+        </Parameter>
+        <Parameter>
+            <Position>68</Position>
+            <Name>BREC</Name>
+            <Type>O</Type>
+            <Description>Recipient agreement type 9 - bonus, size is 10, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID70"/>
+        </Parameter>
+        <Parameter>
+            <Position>69</Position>
+            <Name>RESP</Name>
+            <Type>O</Type>
+            <Description>Responsible, size is 10, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID71"/>
+        </Parameter>
+        <Parameter>
+            <Position>70</Position>
+            <Name>CHID</Name>
+            <Type>O</Type>
+            <Description>Changer ID, size is 10, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID72"/>
+        </Parameter>
+        <Parameter>
+            <Position>71</Position>
+            <Name>PYRE</Name>
+            <Type>O</Type>
+            <Description>Request reference number, size is 25, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID73"/>
+        </Parameter>
+        <Parameter>
+            <Position>72</Position>
+            <Name>BKID</Name>
+            <Type>O</Type>
+            <Description>Bank account identity, size is 5, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID74"/>
+        </Parameter>
+        <Parameter>
+            <Position>73</Position>
+            <Name>DECU</Name>
+            <Type>O</Type>
+            <Description>Delivery customer, size is 10, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID75"/>
+        </Parameter>
+        <Parameter>
+            <Position>74</Position>
+            <Name>TXAP</Name>
+            <Type>O</Type>
+            <Description>Tax applicable, size is 1, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID76"/>
+        </Parameter>
+        <Parameter>
+            <Position>75</Position>
+            <Name>PYCD</Name>
+            <Type>O</Type>
+            <Description>Payment method - accounts receivable, size is 3, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID77"/>
+        </Parameter>
+        <Parameter>
+            <Position>76</Position>
+            <Name>OBLC</Name>
+            <Type>O</Type>
+            <Description>Customer order stop, size is 1, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID78"/>
+        </Parameter>
+        <Parameter>
+            <Position>77</Position>
+            <Name>VXCL</Name>
+            <Type>O</Type>
+            <Description>Vertex not calc, size is 1, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID79"/>
+        </Parameter>
+        <Parameter>
+            <Position>78</Position>
+            <Name>SPLM</Name>
+            <Type>O</Type>
+            <Description>Supply model, size is 8, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID80"/>
+        </Parameter>
+        <Parameter>
+            <Position>79</Position>
+            <Name>OIVR</Name>
+            <Type>O</Type>
+            <Description>Original invoice reference, size is 15, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID81"/>
+        </Parameter>
+        <Parameter>
+            <Position>80</Position>
+            <Name>OYEA</Name>
+            <Type>O</Type>
+            <Description>Original year, size is 4, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID82"/>
+        </Parameter>
+        <Parameter>
+            <Position>81</Position>
+            <Name>TAGY</Name>
+            <Type>O</Type>
+            <Description>Trade agreement model ID, size is 10, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID83"/>
+        </Parameter>
+        <Parameter>
+            <Position>82</Position>
+            <Name>DMDT</Name>
+            <Type>O</Type>
+            <Description>Manual due date, size is 10, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID4"/>
+            <ID_P ID="OID84"/>
+        </Parameter>
+        <Parameter>
+            <Position>0</Position>
+            <Name>iWHLO</Name>
+            <Type>I</Type>
+            <Description>Please describe me</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID5"/>
+            <ID_P ID="IID8"/>
+        </Parameter>
+        <Parameter>
+            <Position>1</Position>
+            <Name>iORTP</Name>
+            <Type>I</Type>
+            <Description>Please describe me</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID5"/>
+            <ID_P ID="IID9"/>
+        </Parameter>
+        <Parameter>
+            <Position>0</Position>
+            <Name>iPONR</Name>
+            <Type>I</Type>
+            <Description>Please describe me</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID7"/>
+            <ID_P ID="IID10"/>
+        </Parameter>
+        <Parameter>
+            <Position>1</Position>
+            <Name>iORQT</Name>
+            <Type>I</Type>
+            <Description>Please describe me</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID7"/>
+            <ID_P ID="IID11"/>
+        </Parameter>
+        <Parameter>
+            <Position>0</Position>
+            <Name>oLineKey</Name>
+            <Type>O</Type>
+            <Description>Please describe me</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID7"/>
+            <ID_P ID="OID85"/>
+        </Parameter>
+        <Parameter>
+            <Position>1</Position>
+            <Name>oLineSeqNo</Name>
+            <Type>O</Type>
+            <Description>Please describe me</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID7"/>
+            <ID_P ID="OID86"/>
+        </Parameter>
+        <Parameter>
+            <Position>2</Position>
+            <Name>oQuantityOrderedRevised</Name>
+            <Type>O</Type>
+            <Description>Please describe me</Description>
+            <DataType>java.math.BigDecimal</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID7"/>
+            <ID_P ID="OID87"/>
+        </Parameter>
+        <Parameter>
+            <Position>0</Position>
+            <Name>DIVI</Name>
+            <Type>I</Type>
+            <Description>Division, size is 3, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID9"/>
+            <ID_P ID="IID12"/>
+        </Parameter>
+        <Parameter>
+            <Position>1</Position>
+            <Name>TOOL</Name>
+            <Type>I</Type>
+            <Description>Tool number, size is 15, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID9"/>
+            <ID_P ID="IID13"/>
+        </Parameter>
+        <Parameter>
+            <Position>2</Position>
+            <Name>TX40</Name>
+            <Type>I</Type>
+            <Description>Description, size is 40, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID9"/>
+            <ID_P ID="IID14"/>
+        </Parameter>
+        <Parameter>
+            <Position>3</Position>
+            <Name>TOOT</Name>
+            <Type>I</Type>
+            <Description>Tool type, size is 5, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID9"/>
+            <ID_P ID="IID15"/>
+        </Parameter>
+        <Parameter>
+            <Position>4</Position>
+            <Name>PUPR</Name>
+            <Type>I</Type>
+            <Description>Purchase price, size is 19, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID9"/>
+            <ID_P ID="IID16"/>
+        </Parameter>
+        <Parameter>
+            <Position>5</Position>
+            <Name>MPDT</Name>
+            <Type>I</Type>
+            <Description>Purchase date, size is 10, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID9"/>
+            <ID_P ID="IID17"/>
+        </Parameter>
+        <Parameter>
+            <Position>0</Position>
+            <Name>TRNR</Name>
+            <Type>I</Type>
+            <Description>Order no, size is 10, type is Alpha(mandatory)</Description>
+            <DataType>String</DataType>
+            <Mandatory>true</Mandatory>
+            <ID_F IDREF="FID11"/>
+            <ID_P ID="IID18"/>
+        </Parameter>
+        <Parameter>
+            <Position>1</Position>
+            <Name>PONR</Name>
+            <Type>I</Type>
+            <Description>Order line no, size is 5, type is Numeric(mandatory)</Description>
+            <DataType>String</DataType>
+            <Mandatory>true</Mandatory>
+            <ID_F IDREF="FID11"/>
+            <ID_P ID="IID19"/>
+        </Parameter>
+        <Parameter>
+            <Position>2</Position>
+            <Name>POSX</Name>
+            <Type>I</Type>
+            <Description>Line suffix, size is 2, type is Numeric(mandatory)</Description>
+            <DataType>String</DataType>
+            <Mandatory>true</Mandatory>
+            <ID_F IDREF="FID11"/>
+            <ID_P ID="IID20"/>
+        </Parameter>
+        <Parameter>
+            <Position>0</Position>
+            <Name>TRNR</Name>
+            <Type>O</Type>
+            <Description>Order no, size is 10, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID11"/>
+            <ID_P ID="OID88"/>
+        </Parameter>
+        <Parameter>
+            <Position>1</Position>
+            <Name>PONR</Name>
+            <Type>O</Type>
+            <Description>Order line no, size is 5, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID11"/>
+            <ID_P ID="OID89"/>
+        </Parameter>
+        <Parameter>
+            <Position>2</Position>
+            <Name>POSX</Name>
+            <Type>O</Type>
+            <Description>Line suffix, size is 2, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID11"/>
+            <ID_P ID="OID90"/>
+        </Parameter>
+        <Parameter>
+            <Position>3</Position>
+            <Name>TRSH</Name>
+            <Type>O</Type>
+            <Description>Highest status, size is 2, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID11"/>
+            <ID_P ID="OID91"/>
+        </Parameter>
+        <Parameter>
+            <Position>4</Position>
+            <Name>WHLO</Name>
+            <Type>O</Type>
+            <Description>Warehouse, size is 3, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID11"/>
+            <ID_P ID="OID92"/>
+        </Parameter>
+        <Parameter>
+            <Position>5</Position>
+            <Name>ITNO</Name>
+            <Type>O</Type>
+            <Description>Item number, size is 15, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID11"/>
+            <ID_P ID="OID93"/>
+        </Parameter>
+        <Parameter>
+            <Position>6</Position>
+            <Name>TRQT</Name>
+            <Type>O</Type>
+            <Description>Trans qty bU/M, size is 17, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID11"/>
+            <ID_P ID="OID94"/>
+        </Parameter>
+        <Parameter>
+            <Position>7</Position>
+            <Name>ALQT</Name>
+            <Type>O</Type>
+            <Description>Allocated qty, size is 17, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID11"/>
+            <ID_P ID="OID95"/>
+        </Parameter>
+        <Parameter>
+            <Position>8</Position>
+            <Name>DPQT</Name>
+            <Type>O</Type>
+            <Description>Dispatched qty, size is 17, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID11"/>
+            <ID_P ID="OID96"/>
+        </Parameter>
+        <Parameter>
+            <Position>9</Position>
+            <Name>QTRL</Name>
+            <Type>O</Type>
+            <Description>Relocated qty, size is 17, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID11"/>
+            <ID_P ID="OID97"/>
+        </Parameter>
+        <Parameter>
+            <Position>10</Position>
+            <Name>QTIT</Name>
+            <Type>O</Type>
+            <Description>Transit qty, size is 17, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID11"/>
+            <ID_P ID="OID98"/>
+        </Parameter>
+        <Parameter>
+            <Position>11</Position>
+            <Name>RPQT</Name>
+            <Type>O</Type>
+            <Description>Reported qty, size is 17, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID11"/>
+            <ID_P ID="OID99"/>
+        </Parameter>
+        <Parameter>
+            <Position>0</Position>
+            <Name>iTRQT</Name>
+            <Type>I</Type>
+            <Description>Please describe me</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID12"/>
+            <ID_P ID="IID21"/>
+        </Parameter>
+        <Parameter>
+            <Position>1</Position>
+            <Name>iALQT</Name>
+            <Type>I</Type>
+            <Description>Please describe me</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID12"/>
+            <ID_P ID="IID22"/>
+        </Parameter>
+        <Parameter>
+            <Position>2</Position>
+            <Name>iDPQT</Name>
+            <Type>I</Type>
+            <Description>Please describe me</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID12"/>
+            <ID_P ID="IID23"/>
+        </Parameter>
+        <Parameter>
+            <Position>3</Position>
+            <Name>iQTRL</Name>
+            <Type>I</Type>
+            <Description>Please describe me</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID12"/>
+            <ID_P ID="IID24"/>
+        </Parameter>
+        <Parameter>
+            <Position>4</Position>
+            <Name>iQTIT</Name>
+            <Type>I</Type>
+            <Description>Please describe me</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID12"/>
+            <ID_P ID="IID25"/>
+        </Parameter>
+        <Parameter>
+            <Position>5</Position>
+            <Name>iRPQT</Name>
+            <Type>I</Type>
+            <Description>Please describe me</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID12"/>
+            <ID_P ID="IID26"/>
+        </Parameter>
+        <Parameter>
+            <Position>0</Position>
+            <Name>oALQT</Name>
+            <Type>O</Type>
+            <Description>Please describe me</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID12"/>
+            <ID_P ID="OID100"/>
+        </Parameter>
+        <Parameter>
+            <Position>0</Position>
+            <Name>CONO</Name>
+            <Type>I</Type>
+            <Description>Company Number, size is 3, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID14"/>
+            <ID_P ID="IID27"/>
+        </Parameter>
+        <Parameter>
+            <Position>1</Position>
+            <Name>ORNO</Name>
+            <Type>I</Type>
+            <Description>Order Number, size is 25, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>true</Mandatory>
+            <ID_F IDREF="FID14"/>
+            <ID_P ID="IID28"/>
+        </Parameter>
+        <Parameter>
+            <Position>2</Position>
+            <Name>LNKY</Name>
+            <Type>I</Type>
+            <Description>Line Key, size is 6, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>true</Mandatory>
+            <ID_F IDREF="FID14"/>
+            <ID_P ID="IID29"/>
+        </Parameter>
+        <Parameter>
+            <Position>3</Position>
+            <Name>PONR</Name>
+            <Type>I</Type>
+            <Description>Line Sequence Number, size is 30, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>true</Mandatory>
+            <ID_F IDREF="FID14"/>
+            <ID_P ID="IID30"/>
+        </Parameter>
+        <Parameter>
+            <Position>0</Position>
+            <Name>ORNO</Name>
+            <Type>O</Type>
+            <Description>Order Number, size is 25, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID14"/>
+            <ID_P ID="OID101"/>
+        </Parameter>
+        <Parameter>
+            <Position>1</Position>
+            <Name>LNKY</Name>
+            <Type>O</Type>
+            <Description>Line Key, size is 6, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID14"/>
+            <ID_P ID="OID102"/>
+        </Parameter>
+        <Parameter>
+            <Position>2</Position>
+            <Name>PONR</Name>
+            <Type>O</Type>
+            <Description>Line Sequence Number, size is 30, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID14"/>
+            <ID_P ID="OID103"/>
+        </Parameter>
+        <Parameter>
+            <Position>3</Position>
+            <Name>ITNO</Name>
+            <Type>O</Type>
+            <Description>Item Code, size is 30, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID14"/>
+            <ID_P ID="OID104"/>
+        </Parameter>
+        <Parameter>
+            <Position>4</Position>
+            <Name>ITTY</Name>
+            <Type>O</Type>
+            <Description>Item Type, size is 50, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID14"/>
+            <ID_P ID="OID105"/>
+        </Parameter>
+        <Parameter>
+            <Position>5</Position>
+            <Name>FUDS</Name>
+            <Type>O</Type>
+            <Description>Item Code Description, size is 30, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID14"/>
+            <ID_P ID="OID106"/>
+        </Parameter>
+        <Parameter>
+            <Position>6</Position>
+            <Name>WHLO</Name>
+            <Type>O</Type>
+            <Description>Warehouse Code, size is 3, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID14"/>
+            <ID_P ID="OID107"/>
+        </Parameter>
+        <Parameter>
+            <Position>7</Position>
+            <Name>PRLV</Name>
+            <Type>O</Type>
+            <Description>Price Level, size is 1, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID14"/>
+            <ID_P ID="OID108"/>
+        </Parameter>
+        <Parameter>
+            <Position>8</Position>
+            <Name>TXID</Name>
+            <Type>O</Type>
+            <Description>Comment Text, size is 2048, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID14"/>
+            <ID_P ID="OID109"/>
+        </Parameter>
+        <Parameter>
+            <Position>9</Position>
+            <Name>ORQT</Name>
+            <Type>O</Type>
+            <Description>Ordered Quantity, size is 10, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID14"/>
+            <ID_P ID="OID110"/>
+        </Parameter>
+        <Parameter>
+            <Position>10</Position>
+            <Name>ORRV</Name>
+            <Type>O</Type>
+            <Description>Revised Ordered Quantity, size is 10, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID14"/>
+            <ID_P ID="OID111"/>
+        </Parameter>
+        <Parameter>
+            <Position>11</Position>
+            <Name>TRQT</Name>
+            <Type>O</Type>
+            <Description>Shipped Quantity, size is 10, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID14"/>
+            <ID_P ID="OID112"/>
+        </Parameter>
+        <Parameter>
+            <Position>12</Position>
+            <Name>ORBO</Name>
+            <Type>O</Type>
+            <Description>Back Ordered Quantity, size is 10, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID14"/>
+            <ID_P ID="OID113"/>
+        </Parameter>
+        <Parameter>
+            <Position>13</Position>
+            <Name>SAPR</Name>
+            <Type>O</Type>
+            <Description>Unit Price, size is 10, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID14"/>
+            <ID_P ID="OID114"/>
+        </Parameter>
+        <Parameter>
+            <Position>14</Position>
+            <Name>UDCR</Name>
+            <Type>O</Type>
+            <Description>UDF COLOR, size is 255, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID14"/>
+            <ID_P ID="OID115"/>
+        </Parameter>
+        <Parameter>
+            <Position>15</Position>
+            <Name>URFT</Name>
+            <Type>O</Type>
+            <Description>UDF REFERENCETYPE, size is 30, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID14"/>
+            <ID_P ID="OID116"/>
+        </Parameter>
+        <Parameter>
+            <Position>16</Position>
+            <Name>URFN</Name>
+            <Type>O</Type>
+            <Description>UDF REFERENCENO, size is 30, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID14"/>
+            <ID_P ID="OID117"/>
+        </Parameter>
+        <Parameter>
+            <Position>17</Position>
+            <Name>UDSG</Name>
+            <Type>O</Type>
+            <Description>UDF DESIGNGROUP, size is 3, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID14"/>
+            <ID_P ID="OID118"/>
+        </Parameter>
+        <Parameter>
+            <Position>18</Position>
+            <Name>UDDC</Name>
+            <Type>O</Type>
+            <Description>UDF DECOGROUP, size is 20, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID14"/>
+            <ID_P ID="OID119"/>
+        </Parameter>
+        <Parameter>
+            <Position>19</Position>
+            <Name>CRCO</Name>
+            <Type>O</Type>
+            <Description>UDF COLOR CODE, size is 30, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID14"/>
+            <ID_P ID="OID120"/>
+        </Parameter>
+        <Parameter>
+            <Position>20</Position>
+            <Name>CRSH</Name>
+            <Type>O</Type>
+            <Description>UDF COLOR SHORT, size is 255, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID14"/>
+            <ID_P ID="OID121"/>
+        </Parameter>
+        <Parameter>
+            <Position>21</Position>
+            <Name>MFNO</Name>
+            <Type>O</Type>
+            <Description>Manufacturing Order Number, size is 50, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID14"/>
+            <ID_P ID="OID122"/>
+        </Parameter>
+        <Parameter>
+            <Position>22</Position>
+            <Name>UDCL</Name>
+            <Type>O</Type>
+            <Description>UDF CLASSIFICATION, size is 255, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID14"/>
+            <ID_P ID="OID123"/>
+        </Parameter>
+        <Parameter>
+            <Position>0</Position>
+            <Name>iALQT</Name>
+            <Type>I</Type>
+            <Description>Please describe me</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID15"/>
+            <ID_P ID="IID31"/>
+        </Parameter>
+        <Parameter>
+            <Position>1</Position>
+            <Name>iORQT</Name>
+            <Type>I</Type>
+            <Description>Please describe me</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID15"/>
+            <ID_P ID="IID32"/>
+        </Parameter>
+        <Parameter>
+            <Position>0</Position>
+            <Name>oORBO</Name>
+            <Type>O</Type>
+            <Description>Please describe me</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID15"/>
+            <ID_P ID="OID124"/>
+        </Parameter>
+        <Parameter>
+            <Position>0</Position>
+            <Name>CONO</Name>
+            <Type>I</Type>
+            <Description>Company Number, size is 3, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID16"/>
+            <ID_P ID="IID33"/>
+        </Parameter>
+        <Parameter>
+            <Position>1</Position>
+            <Name>ORNO</Name>
+            <Type>I</Type>
+            <Description>Order Number, size is 25, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>true</Mandatory>
+            <ID_F IDREF="FID16"/>
+            <ID_P ID="IID34"/>
+        </Parameter>
+        <Parameter>
+            <Position>2</Position>
+            <Name>LNKY</Name>
+            <Type>I</Type>
+            <Description>Line Key, size is 6, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>true</Mandatory>
+            <ID_F IDREF="FID16"/>
+            <ID_P ID="IID35"/>
+        </Parameter>
+        <Parameter>
+            <Position>3</Position>
+            <Name>PONR</Name>
+            <Type>I</Type>
+            <Description>Line Sequence Number, size is 30, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>true</Mandatory>
+            <ID_F IDREF="FID16"/>
+            <ID_P ID="IID36"/>
+        </Parameter>
+        <Parameter>
+            <Position>4</Position>
+            <Name>ITNO</Name>
+            <Type>I</Type>
+            <Description>Item Code, size is 30, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID16"/>
+            <ID_P ID="IID37"/>
+        </Parameter>
+        <Parameter>
+            <Position>5</Position>
+            <Name>ITTY</Name>
+            <Type>I</Type>
+            <Description>Item Type, size is 50, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID16"/>
+            <ID_P ID="IID38"/>
+        </Parameter>
+        <Parameter>
+            <Position>6</Position>
+            <Name>FUDS</Name>
+            <Type>I</Type>
+            <Description>Item Code Description, size is 30, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID16"/>
+            <ID_P ID="IID39"/>
+        </Parameter>
+        <Parameter>
+            <Position>7</Position>
+            <Name>WHLO</Name>
+            <Type>I</Type>
+            <Description>Warehouse Code, size is 3, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID16"/>
+            <ID_P ID="IID40"/>
+        </Parameter>
+        <Parameter>
+            <Position>8</Position>
+            <Name>PRLV</Name>
+            <Type>I</Type>
+            <Description>Price Level, size is 1, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID16"/>
+            <ID_P ID="IID41"/>
+        </Parameter>
+        <Parameter>
+            <Position>9</Position>
+            <Name>TXID</Name>
+            <Type>I</Type>
+            <Description>Comment Text, size is 2048, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID16"/>
+            <ID_P ID="IID42"/>
+        </Parameter>
+        <Parameter>
+            <Position>10</Position>
+            <Name>ORQT</Name>
+            <Type>I</Type>
+            <Description>Ordered Quantity, size is 10, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID16"/>
+            <ID_P ID="IID43"/>
+        </Parameter>
+        <Parameter>
+            <Position>11</Position>
+            <Name>ORRV</Name>
+            <Type>I</Type>
+            <Description>Revised Ordered Quantity, size is 10, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID16"/>
+            <ID_P ID="IID44"/>
+        </Parameter>
+        <Parameter>
+            <Position>12</Position>
+            <Name>TRQT</Name>
+            <Type>I</Type>
+            <Description>Shipped Quantity, size is 10, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID16"/>
+            <ID_P ID="IID45"/>
+        </Parameter>
+        <Parameter>
+            <Position>13</Position>
+            <Name>ORBO</Name>
+            <Type>I</Type>
+            <Description>Back Ordered Quantity, size is 10, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID16"/>
+            <ID_P ID="IID46"/>
+        </Parameter>
+        <Parameter>
+            <Position>14</Position>
+            <Name>SAPR</Name>
+            <Type>I</Type>
+            <Description>Unit Price, size is 10, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID16"/>
+            <ID_P ID="IID47"/>
+        </Parameter>
+        <Parameter>
+            <Position>15</Position>
+            <Name>UDCR</Name>
+            <Type>I</Type>
+            <Description>UDF COLOR, size is 255, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID16"/>
+            <ID_P ID="IID48"/>
+        </Parameter>
+        <Parameter>
+            <Position>16</Position>
+            <Name>URFT</Name>
+            <Type>I</Type>
+            <Description>UDF REFERENCETYPE, size is 30, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID16"/>
+            <ID_P ID="IID49"/>
+        </Parameter>
+        <Parameter>
+            <Position>17</Position>
+            <Name>URFN</Name>
+            <Type>I</Type>
+            <Description>UDF REFERENCENO, size is 30, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID16"/>
+            <ID_P ID="IID50"/>
+        </Parameter>
+        <Parameter>
+            <Position>18</Position>
+            <Name>UDSG</Name>
+            <Type>I</Type>
+            <Description>UDF DESIGNGROUP, size is 3, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID16"/>
+            <ID_P ID="IID51"/>
+        </Parameter>
+        <Parameter>
+            <Position>19</Position>
+            <Name>UDDC</Name>
+            <Type>I</Type>
+            <Description>UDF DECOGROUP, size is 20, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID16"/>
+            <ID_P ID="IID52"/>
+        </Parameter>
+        <Parameter>
+            <Position>20</Position>
+            <Name>CRCO</Name>
+            <Type>I</Type>
+            <Description>UDF COLOR CODE, size is 30, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID16"/>
+            <ID_P ID="IID53"/>
+        </Parameter>
+        <Parameter>
+            <Position>21</Position>
+            <Name>CRSH</Name>
+            <Type>I</Type>
+            <Description>UDF COLOR SHORT, size is 255, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID16"/>
+            <ID_P ID="IID54"/>
+        </Parameter>
+        <Parameter>
+            <Position>22</Position>
+            <Name>MFNO</Name>
+            <Type>I</Type>
+            <Description>Manufacturing Order Number, size is 50, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID16"/>
+            <ID_P ID="IID55"/>
+        </Parameter>
+        <Parameter>
+            <Position>23</Position>
+            <Name>UDCL</Name>
+            <Type>I</Type>
+            <Description>UDF CLASSIFICATION, size is 255, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID16"/>
+            <ID_P ID="IID56"/>
+        </Parameter>
+        <Parameter>
+            <Position>0</Position>
+            <Name>CONO</Name>
+            <Type>I</Type>
+            <Description>Company Number, size is 3, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID17"/>
+            <ID_P ID="IID57"/>
+        </Parameter>
+        <Parameter>
+            <Position>1</Position>
+            <Name>ORNO</Name>
+            <Type>I</Type>
+            <Description>Order Number, size is 25, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>true</Mandatory>
+            <ID_F IDREF="FID17"/>
+            <ID_P ID="IID58"/>
+        </Parameter>
+        <Parameter>
+            <Position>2</Position>
+            <Name>ORDT</Name>
+            <Type>I</Type>
+            <Description>Order Date, size is 8, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID17"/>
+            <ID_P ID="IID59"/>
+        </Parameter>
+        <Parameter>
+            <Position>3</Position>
+            <Name>ORTP</Name>
+            <Type>I</Type>
+            <Description>Work Order Order Type, size is 1, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID17"/>
+            <ID_P ID="IID60"/>
+        </Parameter>
+        <Parameter>
+            <Position>4</Position>
+            <Name>STAT</Name>
+            <Type>I</Type>
+            <Description>Status, size is 1, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID17"/>
+            <ID_P ID="IID61"/>
+        </Parameter>
+        <Parameter>
+            <Position>5</Position>
+            <Name>SHED</Name>
+            <Type>I</Type>
+            <Description>Ship Expire Date, size is 8, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID17"/>
+            <ID_P ID="IID62"/>
+        </Parameter>
+        <Parameter>
+            <Position>6</Position>
+            <Name>CUNO</Name>
+            <Type>I</Type>
+            <Description>Customer Number, size is 20, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID17"/>
+            <ID_P ID="IID63"/>
+        </Parameter>
+        <Parameter>
+            <Position>7</Position>
+            <Name>BTNM</Name>
+            <Type>I</Type>
+            <Description>Bill To Name, size is 36, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID17"/>
+            <ID_P ID="IID64"/>
+        </Parameter>
+        <Parameter>
+            <Position>8</Position>
+            <Name>BTA1</Name>
+            <Type>I</Type>
+            <Description>Bill To Address 1, size is 36, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID17"/>
+            <ID_P ID="IID65"/>
+        </Parameter>
+        <Parameter>
+            <Position>9</Position>
+            <Name>BTA2</Name>
+            <Type>I</Type>
+            <Description>Bill To Address 2, size is 36, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID17"/>
+            <ID_P ID="IID66"/>
+        </Parameter>
+        <Parameter>
+            <Position>10</Position>
+            <Name>BTTO</Name>
+            <Type>I</Type>
+            <Description>Bill To Town, size is 20, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID17"/>
+            <ID_P ID="IID67"/>
+        </Parameter>
+        <Parameter>
+            <Position>11</Position>
+            <Name>BTEC</Name>
+            <Type>I</Type>
+            <Description>Bill To State, size is 2, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID17"/>
+            <ID_P ID="IID68"/>
+        </Parameter>
+        <Parameter>
+            <Position>12</Position>
+            <Name>BTPO</Name>
+            <Type>I</Type>
+            <Description>Bill To Postal Code, size is 10, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID17"/>
+            <ID_P ID="IID69"/>
+        </Parameter>
+        <Parameter>
+            <Position>13</Position>
+            <Name>BTCS</Name>
+            <Type>I</Type>
+            <Description>Bill To Country, size is 3, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID17"/>
+            <ID_P ID="IID70"/>
+        </Parameter>
+        <Parameter>
+            <Position>14</Position>
+            <Name>STNM</Name>
+            <Type>I</Type>
+            <Description>Ship To Name, size is 36, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID17"/>
+            <ID_P ID="IID71"/>
+        </Parameter>
+        <Parameter>
+            <Position>15</Position>
+            <Name>STA1</Name>
+            <Type>I</Type>
+            <Description>Ship To Address 1, size is 36, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID17"/>
+            <ID_P ID="IID72"/>
+        </Parameter>
+        <Parameter>
+            <Position>16</Position>
+            <Name>STA2</Name>
+            <Type>I</Type>
+            <Description>Ship To Address 2, size is 36, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID17"/>
+            <ID_P ID="IID73"/>
+        </Parameter>
+        <Parameter>
+            <Position>17</Position>
+            <Name>STTO</Name>
+            <Type>I</Type>
+            <Description>Ship To Town, size is 20, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID17"/>
+            <ID_P ID="IID74"/>
+        </Parameter>
+        <Parameter>
+            <Position>18</Position>
+            <Name>STEC</Name>
+            <Type>I</Type>
+            <Description>Ship To State, size is 2, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID17"/>
+            <ID_P ID="IID75"/>
+        </Parameter>
+        <Parameter>
+            <Position>19</Position>
+            <Name>STPO</Name>
+            <Type>I</Type>
+            <Description>Ship To Postal Code, size is 10, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID17"/>
+            <ID_P ID="IID76"/>
+        </Parameter>
+        <Parameter>
+            <Position>20</Position>
+            <Name>STCS</Name>
+            <Type>I</Type>
+            <Description>Ship To Country, size is 3, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID17"/>
+            <ID_P ID="IID77"/>
+        </Parameter>
+        <Parameter>
+            <Position>21</Position>
+            <Name>SHVI</Name>
+            <Type>I</Type>
+            <Description>Ship Via, size is 15, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID17"/>
+            <ID_P ID="IID78"/>
+        </Parameter>
+        <Parameter>
+            <Position>22</Position>
+            <Name>SHWT</Name>
+            <Type>I</Type>
+            <Description>Ship Weight, size is 5, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID17"/>
+            <ID_P ID="IID79"/>
+        </Parameter>
+        <Parameter>
+            <Position>23</Position>
+            <Name>CUOR</Name>
+            <Type>I</Type>
+            <Description>Purchase Order, size is 30, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID17"/>
+            <ID_P ID="IID80"/>
+        </Parameter>
+        <Parameter>
+            <Position>24</Position>
+            <Name>FOBC</Name>
+            <Type>I</Type>
+            <Description>FOB Code, size is 15, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID17"/>
+            <ID_P ID="IID81"/>
+        </Parameter>
+        <Parameter>
+            <Position>25</Position>
+            <Name>WHLO</Name>
+            <Type>I</Type>
+            <Description>Warehouse Code, size is 3, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID17"/>
+            <ID_P ID="IID82"/>
+        </Parameter>
+        <Parameter>
+            <Position>26</Position>
+            <Name>TXID</Name>
+            <Type>I</Type>
+            <Description>Comment, size is 2048, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID17"/>
+            <ID_P ID="IID83"/>
+        </Parameter>
+        <Parameter>
+            <Position>27</Position>
+            <Name>TEDL</Name>
+            <Type>I</Type>
+            <Description>Terms Code, size is 3, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID17"/>
+            <ID_P ID="IID84"/>
+        </Parameter>
+        <Parameter>
+            <Position>28</Position>
+            <Name>FAXT</Name>
+            <Type>I</Type>
+            <Description>Fax Number, size is 17, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID17"/>
+            <ID_P ID="IID85"/>
+        </Parameter>
+        <Parameter>
+            <Position>29</Position>
+            <Name>EMAL</Name>
+            <Type>I</Type>
+            <Description>Email, size is 250, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID17"/>
+            <ID_P ID="IID86"/>
+        </Parameter>
+        <Parameter>
+            <Position>30</Position>
+            <Name>RSAD</Name>
+            <Type>I</Type>
+            <Description>Residential Address, size is 1, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID17"/>
+            <ID_P ID="IID87"/>
+        </Parameter>
+        <Parameter>
+            <Position>31</Position>
+            <Name>TXAM</Name>
+            <Type>I</Type>
+            <Description>Taxable Amount, size is 15, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID17"/>
+            <ID_P ID="IID88"/>
+        </Parameter>
+        <Parameter>
+            <Position>32</Position>
+            <Name>NTAM</Name>
+            <Type>I</Type>
+            <Description>Non Taxable Amount, size is 15, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID17"/>
+            <ID_P ID="IID89"/>
+        </Parameter>
+        <Parameter>
+            <Position>33</Position>
+            <Name>STAM</Name>
+            <Type>I</Type>
+            <Description>Sales Tax Amount, size is 15, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID17"/>
+            <ID_P ID="IID90"/>
+        </Parameter>
+        <Parameter>
+            <Position>34</Position>
+            <Name>FRAM</Name>
+            <Type>I</Type>
+            <Description>Freight Amount, size is 15, type is Numeric</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID17"/>
+            <ID_P ID="IID91"/>
+        </Parameter>
+        <Parameter>
+            <Position>35</Position>
+            <Name>UFED</Name>
+            <Type>I</Type>
+            <Description>UDF FED EX ACCT, size is 15, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID17"/>
+            <ID_P ID="IID92"/>
+        </Parameter>
+        <Parameter>
+            <Position>36</Position>
+            <Name>UUPS</Name>
+            <Type>I</Type>
+            <Description>UDF UPS ACCT, size is 15, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID17"/>
+            <ID_P ID="IID93"/>
+        </Parameter>
+        <Parameter>
+            <Position>37</Position>
+            <Name>UCUS</Name>
+            <Type>I</Type>
+            <Description>UDF CUST CARRIER PREF, size is 5, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID17"/>
+            <ID_P ID="IID94"/>
+        </Parameter>
+        <Parameter>
+            <Position>38</Position>
+            <Name>UPHO</Name>
+            <Type>I</Type>
+            <Description>UDF PH ORD TYP, size is 11, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID17"/>
+            <ID_P ID="IID95"/>
+        </Parameter>
+        <Parameter>
+            <Position>39</Position>
+            <Name>UCSR</Name>
+            <Type>I</Type>
+            <Description>UDF CSR CODE, size is 20, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID17"/>
+            <ID_P ID="IID96"/>
+        </Parameter>
+        <Parameter>
+            <Position>40</Position>
+            <Name>URUS</Name>
+            <Type>I</Type>
+            <Description>UDF RUSH, size is 1, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID17"/>
+            <ID_P ID="IID97"/>
+        </Parameter>
+        <Parameter>
+            <Position>41</Position>
+            <Name>UPM3</Name>
+            <Type>I</Type>
+            <Description>Updated By M3, size is 1, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID17"/>
+            <ID_P ID="IID98"/>
+        </Parameter>
+        <Parameter>
+            <Position>42</Position>
+            <Name>DLFG</Name>
+            <Type>I</Type>
+            <Description>Delete Flag, size is 1, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID17"/>
+            <ID_P ID="IID99"/>
+        </Parameter>
+        <Parameter>
+            <Position>43</Position>
+            <Name>M3CH</Name>
+            <Type>I</Type>
+            <Description>M3 Change ID, size is 10, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID17"/>
+            <ID_P ID="IID100"/>
+        </Parameter>
+        <Parameter>
+            <Position>0</Position>
+            <Name>DIVI</Name>
+            <Type>I</Type>
+            <Description>Division, size is 3, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID18"/>
+            <ID_P ID="IID101"/>
+        </Parameter>
+        <Parameter>
+            <Position>1</Position>
+            <Name>TOOL</Name>
+            <Type>I</Type>
+            <Description>Tool number, size is 15, type is Alpha</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID18"/>
+            <ID_P ID="IID102"/>
+        </Parameter>
+        <Parameter>
+            <Position>0</Position>
+            <Name>iORNO</Name>
+            <Type>I</Type>
+            <Description>Please describe me</Description>
+            <DataType>String</DataType>
+            <Mandatory>false</Mandatory>
+            <ID_F IDREF="FID19"/>
+            <ID_P ID="IID103"/>
+        </Parameter>
+    </Parameters>
+    <Implementations>
+        <Implementation>
+            <Language IDREF="FID1">Java</Language>
+            <![CDATA[/*
+		 * --------------------------------------------------------------------------------------
+		 *  Version 		Date		Developer				Comments
+		 * --------------------------------------------------------------------------------------
+		 * 1.0.0			20/1/23		SuriyaN@fortude.co		Migration from ST to MT.
+		 */]]>
+        </Implementation>
+        <Implementation>
+            <Language IDREF="FID2">Java</Language>
+            <![CDATA[// Please implement me
+		iDocumentName = iDocumentName==null ? "": iDocumentName.trim();	//A 20200901 SADANGJ BO
+		oOperation = iOperation==null ? "": iOperation.trim();
+		if (iDocumentName.equals("UPDMGLINEPH")) {	//A 20200901 SADANGJ BO
+			oOperation = oOperation + "DO";	//A 20200901 SADANGJ BO
+			DIVI = "001";	//A 20200901 SADANGJ BO
+		}	//A 20200901 SADANGJ BO]]>
+        </Implementation>
+        <Implementation>
+            <Language IDREF="FID3">Java</Language>
+            <![CDATA[// Please implement me
+		
+		if(iName==null)iName="";
+		if(iValue==null)iValue="";
+		if(oldValue==null)oldValue=iValue;
+		
+		if(iName.trim().equals("CONO")){
+			CONO = iValue.trim();
+		} else if(iName.trim().equals("ORNO")){
+			ORNO = iValue.trim();
+		} else if(iName.trim().equals("DIVI")){
+			DIVI = iValue.trim();
+		} else if(iName.trim().equals("PONR")){
+			PONR = iValue.trim();
+		} else if(iName.trim().equals("POSX")){
+			POSX = iValue.trim();
+		} else if(iName.trim().equals("PLDT")){
+			PLDT = iValue.trim();
+			oldPLDT = oldValue.trim();
+			logWarn( "PLDT " + PLDT);
+			logWarn( "oldPLDT " + oldPLDT);
+		} else if(iName.trim().equals("WHLO")){
+			WHLO = iValue.trim();
+			if (Operation.equals("UPDATEDO")) {	//A 20200901 SADANGJ BO
+				WHLO = WHLO.replace("1", "2");	//A 20200901 SADANGJ BO
+			}	//A 20200901 SADANGJ BO
+		} else if(iName.trim().equals("ORQT")){
+			ORQT = iValue.trim();
+			oldORQT = oldValue.trim();
+		} else if(iName.trim().equals("CHID")){
+			CHID = iValue.trim();
+		} else if(iName.trim().equals("ITNO")){
+			ITNO = iValue.trim();
+		} else if(iName.trim().equals("CUSX")){
+			CUSX = iValue.trim();
+			oldCUSX = oldValue.trim();
+		} else if(iName.trim().equals("ELNO")){
+			ELNO = iValue.trim();
+			oldELNO = oldValue.trim();
+		} else if(iName.trim().equals("CFIN")){
+			CFIN = iValue.trim();
+			oldCFIN = oldValue.trim();
+		} else if(iName.trim().equals("ALQT")){
+			ALQT = iValue.trim();
+			oldALQT = oldValue.trim();
+		} else if(iName.trim().equals("RORN")){
+			RORN = iValue.trim();
+		} else if(iName.trim().equals("RORL")){
+			RORL = iValue.trim();
+		} else if(iName.trim().equals("RORX")){
+			RORX = iValue.trim();
+		}]]>
+        </Implementation>
+        <Implementation>
+            <Language IDREF="FID4">Java</Language>
+            <![CDATA[]]>
+        </Implementation>
+        <Implementation>
+            <Language IDREF="FID5">Java</Language>
+            <![CDATA[// Please implement me
+		logWarn( "WHLO " + iWHLO);
+		DTPH = new DataTranslator(getManifestMap(),CONO,"","PHCO","1","PROPERTY");
+		isProcess = true;
+		PHWHLOS = DTPH.toMessage("PROPERTY","Properties","WOWHLOS","","","","");
+		logWarn( "PHWHLOS " + PHWHLOS);
+		if (!PHWHLOS.contains(iWHLO)) {
+			abort();
+		}
+		String exortp = getManifestInfo("agr:INCLUDEORTP");
+		iORTP = iORTP == null ? "": iORTP.trim();
+		String strORTP = "-" + iORTP + "-";
+		if(!exortp.contains(strORTP)) {
+			abort();
+		}
+		java.util.Calendar cal = java.util.Calendar.getInstance();
+		java.text.DateFormat dateFormat = new java.text.SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+		CurrentDate = dateFormat.format(cal.getTime());
+		logWarn("Today's date is " + CurrentDate);
+		isCustomORTP = false;
+		String custortp = DTPH.toMessage("PROPERTY","Properties","CUSTORTP" + iORTP,"","","","");
+		if (custortp != null && custortp.equals("Y")) {
+			isCustomORTP = true;
+		}
+		String swait = DTPH.toMessage("PROPERTY","Properties","WAIT","","","","");
+		wait = Integer.parseInt(swait);
+		String sretry = DTPH.toMessage("PROPERTY","Properties","RETRY","","","","");
+		retry = Integer.parseInt(sretry);
+		counter = 0;]]>
+        </Implementation>
+        <Implementation>
+            <Language IDREF="FID6">Java</Language>
+            <![CDATA[// Please implement me
+		boolean process = Operation.equals("UPDATEDO") && !isCustomORTP;	//A 20200901 SADANGJ BO
+		isProcess = false;
+		if (!isProcess) {	//A 20200901 SADANGJ BO
+			isProcess = process;	//A 20200901 SADANGJ BO
+			int mult = Integer.parseInt(PONR.trim());
+			Long random = (long) (mult * 500);
+			sleep(random);
+		}	//A 20200901 SADANGJ BO
+		return process;	//A 20200901 SADANGJ BO]]>
+        </Implementation>
+        <Implementation>
+            <Language IDREF="FID7">Java</Language>
+            <![CDATA[// Please implement me
+		oLineKey = iPONR==null ? "000000" : "000000" + iPONR.trim();
+		oLineKey = oLineKey.substring(oLineKey.length() - 6);
+		oLineSeqNo = iPONR==null ? "00000000000000" : "00000000000000" + iPONR.trim();
+		oLineSeqNo = oLineSeqNo.substring(oLineSeqNo.length() - 14);
+		double orqt = Double.parseDouble(iORQT);
+		oQuantityOrderedRevised = new java.math.BigDecimal(orqt);]]>
+        </Implementation>
+        <Implementation>
+            <Language IDREF="FID8">Java</Language>
+            <![CDATA[// Please implement me
+		if (counter < retry && !isLocked) {
+			if(counter > 0) {
+				sleep(wait);
+				logWarn("Lock wait " + wait + ", retry " + counter);
+			}
+			counter++;
+			return true;
+		} else {
+			return false;
+		}]]>
+        </Implementation>
+        <Implementation>
+            <Language IDREF="FID9">Java</Language>
+            <![CDATA[]]>
+        </Implementation>
+        <Implementation>
+            <Language IDREF="FID10">Java</Language>
+            <![CDATA[// Please implement me
+		if (isLastAPICallOK()) {
+			isLocked = true;
+		}]]>
+        </Implementation>
+        <Implementation>
+            <Language IDREF="FID11">Java</Language>
+            <![CDATA[]]>
+        </Implementation>
+        <Implementation>
+            <Language IDREF="FID12">Java</Language>
+            <![CDATA[if (!isLastAPICallOK()) {
+			abort();
+		}
+		// Please implement me
+		iTRQT = iTRQT == null ? "0": iTRQT.trim();
+		iALQT = iALQT == null ? "0": iALQT.trim();
+		iDPQT = iDPQT == null ? "0": iDPQT.trim();
+		iQTRL = iQTRL == null ? "0": iQTRL.trim();
+		iQTIT = iQTIT == null ? "0": iQTIT.trim();
+		iRPQT = iRPQT == null ? "0": iRPQT.trim();
+		
+		double trqt = Double.parseDouble(iTRQT);
+		double alqt = Double.parseDouble(iALQT);
+		double dpqt = Double.parseDouble(iDPQT);
+		double qtrl = Double.parseDouble(iQTRL);
+		double qtit = Double.parseDouble(iQTIT);
+		double rpqt = Double.parseDouble(iRPQT);
+		
+		double allocQTY = alqt + dpqt + qtrl + qtit + rpqt;
+		oALQT = String.valueOf(allocQTY);
+		logWarn("computeAllocated " + oALQT);]]>
+        </Implementation>
+        <Implementation>
+            <Language IDREF="FID13">Java</Language>
+            <![CDATA[// Please implement me
+		return true;]]>
+        </Implementation>
+        <Implementation>
+            <Language IDREF="FID14">Java</Language>
+            <![CDATA[]]>
+        </Implementation>
+        <Implementation>
+            <Language IDREF="FID15">Java</Language>
+            <![CDATA[if(iALQT==null) iALQT ="0";
+		if(iORQT==null) iORQT ="0";
+		
+		if(isLastAPICallOK())
+		{
+			iALQT = iALQT == null ? "0.0": iALQT.trim();
+			iORQT = iORQT == null ? "0.0": iORQT.trim();
+			double alqt = Double.parseDouble(iALQT);
+			double orqt = Double.parseDouble(iORQT);
+			java.math.BigDecimal QuantityBackOrdered = new java.math.BigDecimal(orqt-alqt);
+			if (QuantityBackOrdered.doubleValue() < 0) {
+				QuantityBackOrdered = new java.math.BigDecimal(0);
+			}
+			oORBO = QuantityBackOrdered.toString();
+			return true;
+		}
+		return false;]]>
+        </Implementation>
+        <Implementation>
+            <Language IDREF="FID16">Java</Language>
+            <![CDATA[]]>
+        </Implementation>
+        <Implementation>
+            <Language IDREF="FID17">Java</Language>
+            <![CDATA[]]>
+        </Implementation>
+        <Implementation>
+            <Language IDREF="FID18">Java</Language>
+            <![CDATA[]]>
+        </Implementation>
+        <Implementation>
+            <Language IDREF="FID19">Java</Language>
+            <![CDATA[// Please implement me
+		if (isProcess) {
+			String agreement = getManifestInfo("cmn:agreement");
+			setManifestInfo("map:altAgreement", agreement + " (ORNO: "
+					+ iORNO.trim()
+					+ ")");
+		}]]>
+        </Implementation>
+    </Implementations>
+    <Constants>
+        <Constant>
+            <Name>UPM3_1</Name>
+            <Value>"1"</Value>
+            <Type>String</Type>
+            <Description>Updated By M3, size is 1, type is Alpha</Description>
+            <ID_F ID="CID1"/>
+        </Constant>
+    </Constants>
+    <Variables>
+        <Variable>
+            <Name>REFNO</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID1"/>
+        </Variable>
+        <Variable>
+            <Name>TABL</Name>
+            <InitialValue>"OOHEAD"</InitialValue>
+            <Type>String</Type>
+            <Description>Table, size is 6, type is Alpha</Description>
+            <ID_V ID="VID2"/>
+        </Variable>
+        <Variable>
+            <Name>isUpdate</Name>
+            <InitialValue>false</InitialValue>
+            <Type>boolean</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID3"/>
+        </Variable>
+        <Variable>
+            <Name>LineKey</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID4"/>
+        </Variable>
+        <Variable>
+            <Name>locking</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID5"/>
+        </Variable>
+        <Variable>
+            <Name>CHID</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID6"/>
+        </Variable>
+        <Variable>
+            <Name>TX60</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Text, size is 60, type is Alpha</Description>
+            <ID_V ID="VID7"/>
+        </Variable>
+        <Variable>
+            <Name>TYTR</Name>
+            <InitialValue>"1"</InitialValue>
+            <Type>String</Type>
+            <Description>Type of text, 1=Pre/2=Post, size is 1, type is Alpha</Description>
+            <ID_V ID="VID8"/>
+        </Variable>
+        <Variable>
+            <Name>listIndex</Name>
+            <InitialValue>0</InitialValue>
+            <Type>int</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID9"/>
+        </Variable>
+        <Variable>
+            <Name>ORSL</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Lowest status - Customer, size is 2, type is Alpha</Description>
+            <ID_V ID="VID10"/>
+        </Variable>
+        <Variable>
+            <Name>FLDN</Name>
+            <InitialValue>"OAORNO"</InitialValue>
+            <Type>String</Type>
+            <Description>Field, size is 6, type is Alpha</Description>
+            <ID_V ID="VID11"/>
+        </Variable>
+        <Variable>
+            <Name>TXID</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Text ID, size is 13, type is Numeric</Description>
+            <ID_V ID="VID12"/>
+        </Variable>
+        <Variable>
+            <Name>TRSH</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Highest status, size is 2, type is Alpha</Description>
+            <ID_V ID="VID13"/>
+        </Variable>
+        <Variable>
+            <Name>RORX</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID14"/>
+        </Variable>
+        <Variable>
+            <Name>RORL</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID15"/>
+        </Variable>
+        <Variable>
+            <Name>tempLineIndex</Name>
+            <InitialValue>0</InitialValue>
+            <Type>int</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID16"/>
+        </Variable>
+        <Variable>
+            <Name>UDF_COLOR_CODE</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID17"/>
+        </Variable>
+        <Variable>
+            <Name>PriceLevel</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID18"/>
+        </Variable>
+        <Variable>
+            <Name>OPTN</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Option, size is 15, type is Alpha</Description>
+            <ID_V ID="VID19"/>
+        </Variable>
+        <Variable>
+            <Name>PHWHLOS</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID20"/>
+        </Variable>
+        <Variable>
+            <Name>RTYPE</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID21"/>
+        </Variable>
+        <Variable>
+            <Name>TXV9</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Text block, size is 10, type is Alpha</Description>
+            <ID_V ID="VID22"/>
+        </Variable>
+        <Variable>
+            <Name>ITNO</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID23"/>
+        </Variable>
+        <Variable>
+            <Name>QuantityOrderedRevised</Name>
+            <InitialValue>null</InitialValue>
+            <Type>java.math.BigDecimal</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID24"/>
+        </Variable>
+        <Variable>
+            <Name>oldALQT</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID25"/>
+        </Variable>
+        <Variable>
+            <Name>PHURL</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID26"/>
+        </Variable>
+        <Variable>
+            <Name>ORBO</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID27"/>
+        </Variable>
+        <Variable>
+            <Name>COLOR</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID28"/>
+        </Variable>
+        <Variable>
+            <Name>DPQT</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Dispatched qty, size is 17, type is Numeric</Description>
+            <ID_V ID="VID29"/>
+        </Variable>
+        <Variable>
+            <Name>GALQT</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID30"/>
+        </Variable>
+        <Variable>
+            <Name>TRQT</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Trans qty bU/M, size is 17, type is Numeric</Description>
+            <ID_V ID="VID31"/>
+        </Variable>
+        <Variable>
+            <Name>RPQT</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Reported qty, size is 17, type is Numeric</Description>
+            <ID_V ID="VID32"/>
+        </Variable>
+        <Variable>
+            <Name>QTIT</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Transit qty, size is 17, type is Numeric</Description>
+            <ID_V ID="VID33"/>
+        </Variable>
+        <Variable>
+            <Name>QTRL</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Relocated qty, size is 17, type is Numeric</Description>
+            <ID_V ID="VID34"/>
+        </Variable>
+        <Variable>
+            <Name>Lock</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID35"/>
+        </Variable>
+        <Variable>
+            <Name>oldCUSX</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID36"/>
+        </Variable>
+        <Variable>
+            <Name>PLDT</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID37"/>
+        </Variable>
+        <Variable>
+            <Name>hasItemData</Name>
+            <InitialValue>false</InitialValue>
+            <Type>boolean</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID38"/>
+        </Variable>
+        <Variable>
+            <Name>DTPH</Name>
+            <InitialValue>null</InitialValue>
+            <Type>DataTranslator</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID39"/>
+        </Variable>
+        <Variable>
+            <Name>ORTP</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Order type, size is 3, type is Alpha</Description>
+            <ID_V ID="VID40"/>
+        </Variable>
+        <Variable>
+            <Name>LineSeqNo</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID41"/>
+        </Variable>
+        <Variable>
+            <Name>KVA1</Name>
+            <InitialValue>"PHWO"</InitialValue>
+            <Type>String</Type>
+            <Description>Key field 1, size is 40, type is Alpha</Description>
+            <ID_V ID="VID42"/>
+        </Variable>
+        <Variable>
+            <Name>ALQT</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID43"/>
+        </Variable>
+        <Variable>
+            <Name>oldELNO</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID44"/>
+        </Variable>
+        <Variable>
+            <Name>CUSX</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID45"/>
+        </Variable>
+        <Variable>
+            <Name>TEXTL</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID46"/>
+        </Variable>
+        <Variable>
+            <Name>WHLO</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID47"/>
+        </Variable>
+        <Variable>
+            <Name>intTEMP</Name>
+            <InitialValue>0</InitialValue>
+            <Type>int</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID48"/>
+        </Variable>
+        <Variable>
+            <Name>intPLDT</Name>
+            <InitialValue>0</InitialValue>
+            <Type>int</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID49"/>
+        </Variable>
+        <Variable>
+            <Name>ELNO</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID50"/>
+        </Variable>
+        <Variable>
+            <Name>VALU</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>New Value, size is 60, type is Alpha</Description>
+            <ID_V ID="VID51"/>
+        </Variable>
+        <Variable>
+            <Name>STYN</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Style no, size is 15, type is Alpha</Description>
+            <ID_V ID="VID52"/>
+        </Variable>
+        <Variable>
+            <Name>DIVI</Name>
+            <InitialValue>"001"</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID53"/>
+        </Variable>
+        <Variable>
+            <Name>OrderStatus</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID54"/>
+        </Variable>
+        <Variable>
+            <Name>lineIndex</Name>
+            <InitialValue>1</InitialValue>
+            <Type>int</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID55"/>
+        </Variable>
+        <Variable>
+            <Name>Operation</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID56"/>
+        </Variable>
+        <Variable>
+            <Name>UnitPrice</Name>
+            <InitialValue>null</InitialValue>
+            <Type>java.math.BigDecimal</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID57"/>
+        </Variable>
+        <Variable>
+            <Name>LINO</Name>
+            <InitialValue>"1"</InitialValue>
+            <Type>String</Type>
+            <Description>Line no, size is 3, type is Numeric</Description>
+            <ID_V ID="VID58"/>
+        </Variable>
+        <Variable>
+            <Name>NEPR</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Net price, size is 18, type is Numeric</Description>
+            <ID_V ID="VID59"/>
+        </Variable>
+        <Variable>
+            <Name>DWDT</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Requested delivery date, size is 10, type is Alpha</Description>
+            <ID_V ID="VID60"/>
+        </Variable>
+        <Variable>
+            <Name>ITDS</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Item description, size is 30, type is Alpha</Description>
+            <ID_V ID="VID61"/>
+        </Variable>
+        <Variable>
+            <Name>RORN</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID62"/>
+        </Variable>
+        <Variable>
+            <Name>retry</Name>
+            <InitialValue>0</InitialValue>
+            <Type>int</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID63"/>
+        </Variable>
+        <Variable>
+            <Name>counter</Name>
+            <InitialValue>0</InitialValue>
+            <Type>int</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID64"/>
+        </Variable>
+        <Variable>
+            <Name>ITCL</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Product group, size is 5, type is Alpha</Description>
+            <ID_V ID="VID65"/>
+        </Variable>
+        <Variable>
+            <Name>DTDT</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Requested departure date, size is 10, type is Alpha</Description>
+            <ID_V ID="VID66"/>
+        </Variable>
+        <Variable>
+            <Name>PGRS</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Delivery status, size is 2, type is Alpha</Description>
+            <ID_V ID="VID67"/>
+        </Variable>
+        <Variable>
+            <Name>TDLIX</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID68"/>
+        </Variable>
+        <Variable>
+            <Name>oldCFIN</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID69"/>
+        </Variable>
+        <Variable>
+            <Name>newtempLineKey</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID70"/>
+        </Variable>
+        <Variable>
+            <Name>ORNO</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID71"/>
+        </Variable>
+        <Variable>
+            <Name>DLIX</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID72"/>
+        </Variable>
+        <Variable>
+            <Name>PRTX</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Text ID, size is 13, type is Numeric</Description>
+            <ID_V ID="VID73"/>
+        </Variable>
+        <Variable>
+            <Name>RNQT</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Remg qty bU/M, size is 17, type is Numeric</Description>
+            <ID_V ID="VID74"/>
+        </Variable>
+        <Variable>
+            <Name>CFIN</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Configuration number, size is 10, type is Numeric</Description>
+            <ID_V ID="VID75"/>
+        </Variable>
+        <Variable>
+            <Name>IVQT</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Invoiced quantity - basic U/M, size is 16, type is Alpha</Description>
+            <ID_V ID="VID76"/>
+        </Variable>
+        <Variable>
+            <Name>RORC</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Ref order cat, size is 1, type is Numeric</Description>
+            <ID_V ID="VID77"/>
+        </Variable>
+        <Variable>
+            <Name>TOOT</Name>
+            <InitialValue>"T"</InitialValue>
+            <Type>String</Type>
+            <Description>Tool type, size is 5, type is Alpha</Description>
+            <ID_V ID="VID78"/>
+        </Variable>
+        <Variable>
+            <Name>wait</Name>
+            <InitialValue>0</InitialValue>
+            <Type>int</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID79"/>
+        </Variable>
+        <Variable>
+            <Name>oldPLDT</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID80"/>
+        </Variable>
+        <Variable>
+            <Name>tempCFIN</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID81"/>
+        </Variable>
+        <Variable>
+            <Name>RIDN</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID82"/>
+        </Variable>
+        <Variable>
+            <Name>DECO</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID83"/>
+        </Variable>
+        <Variable>
+            <Name>OVAL</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Old Value, size is 60, type is Alpha</Description>
+            <ID_V ID="VID84"/>
+        </Variable>
+        <Variable>
+            <Name>isProcess</Name>
+            <InitialValue>false</InitialValue>
+            <Type>boolean</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID85"/>
+        </Variable>
+        <Variable>
+            <Name>itemMap</Name>
+            <InitialValue>null</InitialValue>
+            <Type>java.util.Map&lt;String, String&gt;</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID86"/>
+        </Variable>
+        <Variable>
+            <Name>QuantityShipped</Name>
+            <InitialValue>null</InitialValue>
+            <Type>java.math.BigDecimal</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID87"/>
+        </Variable>
+        <Variable>
+            <Name>QuantityOrdered</Name>
+            <InitialValue>null</InitialValue>
+            <Type>java.math.BigDecimal</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID88"/>
+        </Variable>
+        <Variable>
+            <Name>PPONR</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID89"/>
+        </Variable>
+        <Variable>
+            <Name>oldORQT</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID90"/>
+        </Variable>
+        <Variable>
+            <Name>ORQT</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID91"/>
+        </Variable>
+        <Variable>
+            <Name>tempRIDN</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID92"/>
+        </Variable>
+        <Variable>
+            <Name>tempWHLO</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID93"/>
+        </Variable>
+        <Variable>
+            <Name>UDF_COLOR_SHORT</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID94"/>
+        </Variable>
+        <Variable>
+            <Name>ORQA</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Ordered quantity - alternate U/M, size is 17, type is Numeric</Description>
+            <ID_V ID="VID95"/>
+        </Variable>
+        <Variable>
+            <Name>isCustomORTP</Name>
+            <InitialValue>false</InitialValue>
+            <Type>boolean</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID96"/>
+        </Variable>
+        <Variable>
+            <Name>OPTY</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Option, size is 15, type is Alpha</Description>
+            <ID_V ID="VID97"/>
+        </Variable>
+        <Variable>
+            <Name>ITTY</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Item type, size is 3, type is Alpha</Description>
+            <ID_V ID="VID98"/>
+        </Variable>
+        <Variable>
+            <Name>CurrentDate</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID99"/>
+        </Variable>
+        <Variable>
+            <Name>POSX</Name>
+            <InitialValue>"0"</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID100"/>
+        </Variable>
+        <Variable>
+            <Name>PONR</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID101"/>
+        </Variable>
+        <Variable>
+            <Name>LOGPATH</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID102"/>
+        </Variable>
+        <Variable>
+            <Name>itemList</Name>
+            <InitialValue>null</InitialValue>
+            <Type>java.util.List&lt;String[]&gt;</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID103"/>
+        </Variable>
+        <Variable>
+            <Name>DLQT</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Delivered quantity - basic U/M, size is 16, type is Alpha</Description>
+            <ID_V ID="VID104"/>
+        </Variable>
+        <Variable>
+            <Name>isLocked</Name>
+            <InitialValue>false</InitialValue>
+            <Type>boolean</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID105"/>
+        </Variable>
+        <Variable>
+            <Name>tempLineKey</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID106"/>
+        </Variable>
+        <Variable>
+            <Name>tempLineSeqNo</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID107"/>
+        </Variable>
+        <Variable>
+            <Name>ProductLine</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID108"/>
+        </Variable>
+        <Variable>
+            <Name>CONO</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID109"/>
+        </Variable>
+        <Variable>
+            <Name>mapIndex</Name>
+            <InitialValue>0</InitialValue>
+            <Type>int</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID110"/>
+        </Variable>
+        <Variable>
+            <Name>FM01</Name>
+            <InitialValue>""</InitialValue>
+            <Type>String</Type>
+            <Description>User-defined field heading 1 - style, size is 15, type is Alpha</Description>
+            <ID_V ID="VID111"/>
+        </Variable>
+        <Variable>
+            <Name>QuantityBackordered</Name>
+            <InitialValue>null</InitialValue>
+            <Type>java.math.BigDecimal</Type>
+            <Description>Please describe me</Description>
+            <ID_V ID="VID112"/>
+        </Variable>
+    </Variables>
+    <SchemaIn>
+        <Record>
+            <PATH>/EventData</PATH>
+            <ID_M ID="MID1"/>
+            <Type>?</Type>
+            <FormattedPath>/EventData</FormattedPath>
+        </Record>
+        <Record>
+            <PATH>/EventData/DocumentName</PATH>
+            <ID_M ID="MID2"/>
+            <Type>xs:string</Type>
+            <FormattedPath>/EventData/DocumentName</FormattedPath>
+        </Record>
+        <Record>
+            <PATH>/EventData/Operation</PATH>
+            <ID_M ID="MID3"/>
+            <Type>xs:string</Type>
+            <FormattedPath>/EventData/Operation</FormattedPath>
+        </Record>
+        <Record>
+            <PATH>/EventData/Document/ElementData</PATH>
+            <ID_M ID="MID4"/>
+            <Type>?</Type>
+            <FormattedPath>/EventData/Document/ElementData</FormattedPath>
+        </Record>
+        <Record>
+            <PATH>/EventData/Document/ElementData/Name</PATH>
+            <ID_M ID="MID5"/>
+            <Type>xs:string</Type>
+            <FormattedPath>/EventData/Document/ElementData/Name</FormattedPath>
+        </Record>
+        <Record>
+            <PATH>/EventData/Document/ElementData/Value</PATH>
+            <ID_M ID="MID6"/>
+            <Type>string</Type>
+            <FormattedPath>/EventData/Document/ElementData/Value</FormattedPath>
+        </Record>
+        <Record>
+            <PATH>/EventData/Document/ElementData/OldValue</PATH>
+            <ID_M ID="MID7"/>
+            <Type>string</Type>
+            <FormattedPath>/EventData/Document/ElementData/OldValue</FormattedPath>
+        </Record>
+    </SchemaIn>
+    <SchemaOut/>
+    <Links>
+        <Link>
+            <InFrom IDREF="MID2"/>
+            <OutTo IDREF="IID1"/>
+            <SequenceIn>-1</SequenceIn>
+            <SequenceOut>2</SequenceOut>
+            <Type>MP</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="MID3"/>
+            <OutTo IDREF="IID2"/>
+            <SequenceIn>-1</SequenceIn>
+            <SequenceOut>2</SequenceOut>
+            <Type>MP</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="MID4"/>
+            <OutTo IDREF="LID1"/>
+            <SequenceIn>-1</SequenceIn>
+            <SequenceOut>3</SequenceOut>
+            <Type>ML</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="MID5"/>
+            <OutTo IDREF="IID3"/>
+            <SequenceIn>-1</SequenceIn>
+            <SequenceOut>4</SequenceOut>
+            <Type>MP</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="MID6"/>
+            <OutTo IDREF="IID4"/>
+            <SequenceIn>-1</SequenceIn>
+            <SequenceOut>4</SequenceOut>
+            <Type>MP</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="MID7"/>
+            <OutTo IDREF="IID5"/>
+            <SequenceIn>-1</SequenceIn>
+            <SequenceOut>4</SequenceOut>
+            <Type>MP</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="OID1"/>
+            <OutTo IDREF="VID56"/>
+            <SequenceIn>2</SequenceIn>
+            <SequenceOut>-1</SequenceOut>
+            <Type>PV</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="VID109"/>
+            <OutTo IDREF="IID6"/>
+            <SequenceIn>-1</SequenceIn>
+            <SequenceOut>6</SequenceOut>
+            <Type>VP</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="VID71"/>
+            <OutTo IDREF="IID7"/>
+            <SequenceIn>-1</SequenceIn>
+            <SequenceOut>6</SequenceOut>
+            <Type>VP</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="OID3"/>
+            <OutTo IDREF="VID40"/>
+            <SequenceIn>6</SequenceIn>
+            <SequenceOut>-1</SequenceOut>
+            <Type>PV</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="OID25"/>
+            <OutTo IDREF="VID10"/>
+            <SequenceIn>6</SequenceIn>
+            <SequenceOut>-1</SequenceOut>
+            <Type>PV</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="VID47"/>
+            <OutTo IDREF="IID8"/>
+            <SequenceIn>-1</SequenceIn>
+            <SequenceOut>7</SequenceOut>
+            <Type>VP</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="VID40"/>
+            <OutTo IDREF="IID9"/>
+            <SequenceIn>-1</SequenceIn>
+            <SequenceOut>7</SequenceOut>
+            <Type>VP</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="FID6"/>
+            <OutTo IDREF="LID2"/>
+            <SequenceIn>9</SequenceIn>
+            <SequenceOut>8</SequenceOut>
+            <Type>FL</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="VID101"/>
+            <OutTo IDREF="IID10"/>
+            <SequenceIn>-1</SequenceIn>
+            <SequenceOut>10</SequenceOut>
+            <Type>VP</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="VID91"/>
+            <OutTo IDREF="IID11"/>
+            <SequenceIn>-1</SequenceIn>
+            <SequenceOut>10</SequenceOut>
+            <Type>VP</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="OID85"/>
+            <OutTo IDREF="VID4"/>
+            <SequenceIn>10</SequenceIn>
+            <SequenceOut>-1</SequenceOut>
+            <Type>PV</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="OID86"/>
+            <OutTo IDREF="VID41"/>
+            <SequenceIn>10</SequenceIn>
+            <SequenceOut>-1</SequenceOut>
+            <Type>PV</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="OID87"/>
+            <OutTo IDREF="VID24"/>
+            <SequenceIn>10</SequenceIn>
+            <SequenceOut>-1</SequenceOut>
+            <Type>PV</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="FID8"/>
+            <OutTo IDREF="LID3"/>
+            <SequenceIn>12</SequenceIn>
+            <SequenceOut>11</SequenceOut>
+            <Type>FL</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="VID53"/>
+            <OutTo IDREF="IID12"/>
+            <SequenceIn>-1</SequenceIn>
+            <SequenceOut>13</SequenceOut>
+            <Type>VP</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="VID71"/>
+            <OutTo IDREF="IID13"/>
+            <SequenceIn>-1</SequenceIn>
+            <SequenceOut>13</SequenceOut>
+            <Type>VP</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="VID78"/>
+            <OutTo IDREF="IID15"/>
+            <SequenceIn>-1</SequenceIn>
+            <SequenceOut>13</SequenceOut>
+            <Type>VP</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="VID62"/>
+            <OutTo IDREF="IID18"/>
+            <SequenceIn>-1</SequenceIn>
+            <SequenceOut>16</SequenceOut>
+            <Type>VP</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="VID15"/>
+            <OutTo IDREF="IID19"/>
+            <SequenceIn>-1</SequenceIn>
+            <SequenceOut>16</SequenceOut>
+            <Type>VP</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="VID14"/>
+            <OutTo IDREF="IID20"/>
+            <SequenceIn>-1</SequenceIn>
+            <SequenceOut>16</SequenceOut>
+            <Type>VP</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="OID91"/>
+            <OutTo IDREF="VID13"/>
+            <SequenceIn>16</SequenceIn>
+            <SequenceOut>-1</SequenceOut>
+            <Type>PV</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="OID94"/>
+            <OutTo IDREF="VID31"/>
+            <SequenceIn>16</SequenceIn>
+            <SequenceOut>-1</SequenceOut>
+            <Type>PV</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="OID95"/>
+            <OutTo IDREF="VID43"/>
+            <SequenceIn>16</SequenceIn>
+            <SequenceOut>-1</SequenceOut>
+            <Type>PV</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="OID96"/>
+            <OutTo IDREF="VID29"/>
+            <SequenceIn>16</SequenceIn>
+            <SequenceOut>-1</SequenceOut>
+            <Type>PV</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="OID97"/>
+            <OutTo IDREF="VID34"/>
+            <SequenceIn>16</SequenceIn>
+            <SequenceOut>-1</SequenceOut>
+            <Type>PV</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="OID98"/>
+            <OutTo IDREF="VID33"/>
+            <SequenceIn>16</SequenceIn>
+            <SequenceOut>-1</SequenceOut>
+            <Type>PV</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="OID99"/>
+            <OutTo IDREF="VID32"/>
+            <SequenceIn>16</SequenceIn>
+            <SequenceOut>-1</SequenceOut>
+            <Type>PV</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="VID31"/>
+            <OutTo IDREF="IID21"/>
+            <SequenceIn>-1</SequenceIn>
+            <SequenceOut>17</SequenceOut>
+            <Type>VP</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="VID43"/>
+            <OutTo IDREF="IID22"/>
+            <SequenceIn>-1</SequenceIn>
+            <SequenceOut>17</SequenceOut>
+            <Type>VP</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="VID29"/>
+            <OutTo IDREF="IID23"/>
+            <SequenceIn>-1</SequenceIn>
+            <SequenceOut>17</SequenceOut>
+            <Type>VP</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="VID34"/>
+            <OutTo IDREF="IID24"/>
+            <SequenceIn>-1</SequenceIn>
+            <SequenceOut>17</SequenceOut>
+            <Type>VP</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="VID33"/>
+            <OutTo IDREF="IID25"/>
+            <SequenceIn>-1</SequenceIn>
+            <SequenceOut>17</SequenceOut>
+            <Type>VP</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="VID32"/>
+            <OutTo IDREF="IID26"/>
+            <SequenceIn>-1</SequenceIn>
+            <SequenceOut>17</SequenceOut>
+            <Type>VP</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="OID100"/>
+            <OutTo IDREF="VID43"/>
+            <SequenceIn>17</SequenceIn>
+            <SequenceOut>-1</SequenceOut>
+            <Type>PV</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="FID13"/>
+            <OutTo IDREF="LID4"/>
+            <SequenceIn>19</SequenceIn>
+            <SequenceOut>18</SequenceOut>
+            <Type>FL</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="VID71"/>
+            <OutTo IDREF="IID28"/>
+            <SequenceIn>-1</SequenceIn>
+            <SequenceOut>20</SequenceOut>
+            <Type>VP</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="VID4"/>
+            <OutTo IDREF="IID29"/>
+            <SequenceIn>-1</SequenceIn>
+            <SequenceOut>20</SequenceOut>
+            <Type>VP</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="VID41"/>
+            <OutTo IDREF="IID30"/>
+            <SequenceIn>-1</SequenceIn>
+            <SequenceOut>20</SequenceOut>
+            <Type>VP</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="FID15"/>
+            <OutTo IDREF="LID5"/>
+            <SequenceIn>22</SequenceIn>
+            <SequenceOut>21</SequenceOut>
+            <Type>FL</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="VID43"/>
+            <OutTo IDREF="IID31"/>
+            <SequenceIn>-1</SequenceIn>
+            <SequenceOut>22</SequenceOut>
+            <Type>VP</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="VID91"/>
+            <OutTo IDREF="IID32"/>
+            <SequenceIn>-1</SequenceIn>
+            <SequenceOut>22</SequenceOut>
+            <Type>VP</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="OID124"/>
+            <OutTo IDREF="VID27"/>
+            <SequenceIn>22</SequenceIn>
+            <SequenceOut>-1</SequenceOut>
+            <Type>PV</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="VID71"/>
+            <OutTo IDREF="IID34"/>
+            <SequenceIn>-1</SequenceIn>
+            <SequenceOut>23</SequenceOut>
+            <Type>VP</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="VID4"/>
+            <OutTo IDREF="IID35"/>
+            <SequenceIn>-1</SequenceIn>
+            <SequenceOut>23</SequenceOut>
+            <Type>VP</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="VID41"/>
+            <OutTo IDREF="IID36"/>
+            <SequenceIn>-1</SequenceIn>
+            <SequenceOut>23</SequenceOut>
+            <Type>VP</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="VID27"/>
+            <OutTo IDREF="IID46"/>
+            <SequenceIn>-1</SequenceIn>
+            <SequenceOut>23</SequenceOut>
+            <Type>VP</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="VID71"/>
+            <OutTo IDREF="IID58"/>
+            <SequenceIn>-1</SequenceIn>
+            <SequenceOut>24</SequenceOut>
+            <Type>VP</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="CID1"/>
+            <OutTo IDREF="IID98"/>
+            <SequenceIn>-1</SequenceIn>
+            <SequenceOut>24</SequenceOut>
+            <Type>KP</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="VID53"/>
+            <OutTo IDREF="IID101"/>
+            <SequenceIn>-1</SequenceIn>
+            <SequenceOut>27</SequenceOut>
+            <Type>VP</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="VID71"/>
+            <OutTo IDREF="IID102"/>
+            <SequenceIn>-1</SequenceIn>
+            <SequenceOut>27</SequenceOut>
+            <Type>VP</Type>
+        </Link>
+        <Link>
+            <InFrom IDREF="VID71"/>
+            <OutTo IDREF="IID103"/>
+            <SequenceIn>-1</SequenceIn>
+            <SequenceOut>29</SequenceOut>
+            <Type>VP</Type>
+        </Link>
+    </Links>
+    <Properties/>
+</DatabaseData>
